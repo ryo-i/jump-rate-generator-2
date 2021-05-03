@@ -3,8 +3,8 @@
         "url": "https://next-app-started.vercel.app/"
     },
     "header": {
-        "title":"Nextアプリスターターキット",
-        "text": "Next.js + TypeScript + CSS in JS環境"
+        "title":"ジャンプ率ジェネレーター",
+        "text": "文字ジャンプ率を動的に変えることができます"
     },
     "main": {
         "title":"メインページです",

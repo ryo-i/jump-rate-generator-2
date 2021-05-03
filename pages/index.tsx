@@ -7,8 +7,8 @@ import Data from '../data/data.json';
 
 const headerTitle = Data.header.title;
 const headerText = Data.header.text;
-const pageTitle = Data.main.title;
-const pageText = Data.main.text;
+const pageTitle = 'ジャンプ率ジェネレーター';
+const pageText = '行長、行間、ジャンプ率などを変えてみてください。';
 
 
 function Home() {

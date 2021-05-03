@@ -7,7 +7,7 @@ import Data from '../data/data.json';
 
 const headerTitle = Data.header.title;
 const pageTitle = 'このアプリについて';
-const pageText = 'アプリの概要をここに書く。';
+const pageText = '文字の行長、行間、ジャンプ率を動的に変更した画面を確認することができます。';
 const headTitle = pageTitle + ' | ' + headerTitle;
 
 
