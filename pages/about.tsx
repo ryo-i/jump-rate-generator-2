@@ -27,8 +27,14 @@ function About() {
             <h1>{ pageTitle }</h1>
             <p dangerouslySetInnerHTML={{ __html: pageText }}></p>
             <section>
-                <h2>使い方</h2>
-                <p>アプリの説明説明説明説明説明説明説明説明</p>
+                <h2>初期値</h2>
+                <p>下記を推奨スタイルとして初期値にしています。</p>
+                <ul>
+                    <li>行長：35文字（ max-width: 35em; ）</li>
+                    <li>行間：1.75倍（ line-height: 1.75em; ）</li>
+                    <li>ジャンプ率：200%（ font-size: 2em; ）</li>
+                </ul>
+                <p>※参考：<a href="https://www.i-ryo.com/entry/2019/02/19/230354">【行長・行間・ジャンプ率】タイポグラフィ事始め（適度な箱組みとは）</a></p>
             </section>
             <Profile />
         </main>
