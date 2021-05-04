@@ -68,19 +68,17 @@ function Inner() {
   };
 
 
-  const P = styled.p`
-    line-height: ${lineHeight}em;
-  `;
+  const pStyle = {
+    lineHeight: lineHeight + 'em'
+  };
 
-  const Section = styled.section`
-    max-width: ${lineLength}em;
-  `;
+  const sectionStyle = {
+    maxWidth: lineLength + 'em'
+  };
 
-  const H2 = styled.h2`
-    && {
-      font-size: ${jumpRate}em;
-    }
-  `;
+  const h2Style = {
+    fontSize: jumpRate + 'em'
+  };
 
 
   return (
@@ -111,10 +109,10 @@ function Inner() {
         </dl>
       </Setting>
       <Example>
-        <Section>
-          <H2>タイトルです、ああタイトルです、タイトルです</H2>
-          <P>本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。</P>
-        </Section>
+        <section style={sectionStyle}>
+          <h2 style={h2Style}>タイトルです、ああタイトルです、タイトルです</h2>
+          <p style={pStyle}>本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。本文です。本文です。本文ですったら、本文です。</p>
+        </section>
       </Example>
     </div>
   );
