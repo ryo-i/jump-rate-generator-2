@@ -1,21 +1,22 @@
-# Nextアプリスターターキット
+# ジャンプ率ジェネレーター
 
-React + Next.js + TypeScript + CSS in JS環境
-
-## ブログ
-
-【React】Nextスターターキットを作った-1. 全体設定編
-
-※参考：[https://www.i-ryo.com/entry/2021/05/01/184600]
-
-【React】Nextスターターキットを作った-2. コンポーネント編
-
-※参考：[https://www.i-ryo.com/entry/2021/05/02/101424]
-
-【React】Nextスターターキットを作った-3. ページファイル編
-
-※参考：[https://www.i-ryo.com/entry/2021/05/02/102630]
+文字ジャンプ率を動的に変えることができます
 
 ## プレビュー
 
-※参考：[https://next-app-started.vercel.app/]
+Vercel（Next版）
+
+※参考：[https://jump-rate-generator-2.vercel.app/]
+
+
+## 詳細（ブログ）
+
+【React】ジャンプ率ジェネレーターをNext.jsで作り直した（Next.js + TypeScript + CSS in JS）
+
+※参考：[https://www.i-ryo.com/entry/2021/05/04/122147]
+
+# 姉妹アプリ
+
+文字ジャンプジェネレーターをReact版（本アプリの原型）
+
+※参考：[https://github.com/ryo-i/jump-rate-generator]
